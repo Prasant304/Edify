@@ -1,2 +1,2 @@
 # Edify
-Software Training Hub
+Software training hub
