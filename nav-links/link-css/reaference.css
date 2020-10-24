@@ -1,0 +1,62 @@
+/* ---- header section */
+
+header {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('../../src/reaference/bg-reaference.jpg');
+    background-attachment: fixed;
+    min-height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.content {
+    position: absolute;
+    /* background: rgba(0, 0, 0, 0.8); */
+    width: 60vw;
+    top: 30%;
+    left: 10%;
+    padding-left: 2rem;
+    border-left: 4px solid #1ebba3;
+    transition: .5s;
+}
+
+.content .banner_title,
+.banner_subtitle {
+    margin: 0;
+    padding: 0;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 1rem 1rem 1.5rem rgba(0, 0, 0, 0.7);
+}
+
+.content .banner_para {
+    font-size: 16px;
+    color: white;
+    letter-spacing: .5px;
+}
+
+.content .banner_btn {
+    height: 2.7rem;
+    width: 20rem;
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+    border: 2px solid #1ebba3;
+    border-radius: 1rem;
+    font-size: 1.5 rem !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    transition: ease .5s;
+}
+
+.content .banner_btn:hover {
+    background: #1ebba3;
+    color: black;
+}
+
+
+/* ---- header section# */

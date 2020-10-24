@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* --------Global Classes------------ */
+
+.text-black {
+    color: black
+}
+
+
+/* --------Global Classes------------# */
+
+
+/* --------Actual CSS---------- */
+
+header {
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content {
+    position: absolute;
+    width: 60vw;
+    top: 20%;
+    left: 10%;
+    padding-left: 2rem;
+    border-left: 4px solid #1ebba3;
+    transition: .5s;
+}
+
+.content .banner_title,
+.banner_subtitle {
+    margin: 0;
+    padding: 0;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 1rem 1rem 1.5rem rgba(0, 0, 0, 0.7);
+}
+
+.content .banner_para {
+    font-size: 16px;
+    color: white;
+    letter-spacing: .5px;
+}
+
+.content .banner_btn {
+    height: 2.7rem;
+    width: 20rem;
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+    border: 2px solid #1ebba3;
+    border-radius: 1rem;
+    font-size: 1.5 rem !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    transition: ease .5s;
+}
+
+.content .banner_btn:hover {
+    background: #1ebba3;
+    color: black;
+}
+
+
+/* ---- header section# */
+
+
+/* -------courses tabs  */
+
+.course_tab .course_links {
+    background: rgb(224, 222, 222);
+    height: 100%;
+}
+
+.course_links .course_btn {
+    background: greenyellow;
+}
+
+
+/* -------courses tabs # */
+
+
+/* -------Courses----- */
+
+.course .course_card {
+    cursor: pointer;
+    margin: 2rem;
+    max-height: 40rem;
+    transition: .4s;
+}
+
+.course .course_card .border {
+    display: none !important;
+}
+
+.course .course_card:hover {
+    box-shadow: .1rem .1rem .8rem rgba(0, 0, 0, 0.9);
+    transform: translateY(1rem);
+    transition: .5s;
+}
+
+.course .course_img {
+    margin: 2rem;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.course .course_img img {
+    transition: .5s;
+    cursor: pointer;
+}
+
+.course .course_img img:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+
+/* -------Courses-----# */
+
+
+/* --------Actual CSS----------# */

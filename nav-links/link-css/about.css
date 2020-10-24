@@ -1,0 +1,159 @@
+/* ---- header section */
+
+.border {
+    border: 1px solid black;
+}
+
+header {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('../../src/about/bg-about.jpg');
+    background-attachment: fixed;
+    min-height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.content {
+    position: absolute;
+    /* background: rgba(0, 0, 0, 0.8); */
+    width: 60vw;
+    top: 30%;
+    left: 10%;
+    padding-left: 2rem;
+    border-left: 4px solid #1ebba3;
+    transition: .5s;
+}
+
+.content .banner_title,
+.banner_subtitle {
+    margin: 0;
+    padding: 0;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 1rem 1rem 1.5rem rgba(0, 0, 0, 0.7);
+}
+
+.content .banner_para {
+    font-size: 16px;
+    color: white;
+    letter-spacing: .5px;
+}
+
+.content .banner_btn {
+    height: 2.7rem;
+    width: 20rem;
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+    border: 2px solid #1ebba3;
+    border-radius: 1rem;
+    font-size: 1.5 rem !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    transition: ease .5s;
+}
+
+.content .banner_btn:hover {
+    background: #1ebba3;
+    color: black;
+}
+
+
+/* ---- header section# */
+
+
+/* About body */
+
+.about_body {
+    height: 70vh;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.about_body img {
+    position: absolute;
+    width: 80%;
+    height: 50vh;
+    z-index: -1;
+    opacity: .2;
+}
+
+.about_body .about_title h3 {
+    font-weight: bold;
+}
+
+.about_body .about_title hr {
+    height: 2px;
+    background: #3bdac2;
+}
+
+.about_body .about_para {
+    width: 90%;
+}
+
+.about_body .about_para p {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+/* About body# */
+
+
+/* Faculty */
+
+
+/* .faculty_bio #rabindra {
+    height: 20rem;
+    width: 95%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+} */
+
+
+/* .faculty_bio:nth-child(2) {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('../../src/about/profile.jpg');
+    background-size: 100% 160%;
+    background-attachment: fixed;
+    color: white;
+}
+
+.faculty_bio:nth-child(3) {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('../../src/about/profile-2.jpg');
+    background-size: 100% 160%;
+    background-attachment: fixed;
+    color: white;
+}
+
+.faculty_bio:nth-child(4) {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('../../src/about/profile-3.jpg');
+    background-size: 100% 160%;
+    background-attachment: fixed;
+    color: white;
+} */
+
+.faculty_bio .faculty_img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.faculty_bio .faculty_img img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.faculty_bio .faculty_img img:hover {
+    transform: scale(1.1);
+}
+
+
+/* Faculty# */

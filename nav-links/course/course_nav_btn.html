@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>course button</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        a:hover {
+            text-decoration: none;
+        }
+        
+        li {
+            list-style: none;
+        }
+        /* -----carousel part*/
+        
+        .carousel {
+            height: 4rem;
+            /* background: rgba(0, 0, 0, 0.2); */
+        }
+        
+        .course_nav {
+            display: flex;
+            justify-content: center;
+            align-items: space-between;
+        }
+        
+        .course_nav li {
+            /* background: linear-gradient(12deg, #42c93b, #fff); */
+            /* height: .5rem; */
+            width: 9rem;
+            border-radius: 1rem;
+            color: black;
+            font-weight: 700;
+            font-size: 12px;
+            letter-spacing: 1px;
+            transition: .6s;
+            border: 2px solid #42c93b;
+        }
+        
+        .course_nav li:hover {
+            background: linear-gradient(12deg, #15c10c, rgb(238, 237, 237));
+            transition: .6s;
+            /* transform: scale(1.1); */
+        }
+        /* -----carousel part#*/
+    </style>
+</head>
+
+<body>
+    <!-- Courses navigation -->
+
+    <!-- carousel part -->
+    <div id="demo" class="carousel slide" data-ride="carousel" data-interval="4000">
+
+        <!-- Indicators -->
+        <!-- <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul> -->
+
+        <!-- The slideshow -->
+        <div class="carousel-inner text-center">
+            <!-- slide 1 -->
+            <div class="carousel-item active">
+                <div class="container">
+                    <ul class="course_nav">
+                        <a href="#">
+                            <li class="mx-4 mt-3 p-1">AutoCAD</li>
+                        </a>
+                        <a href="#">
+                            <li class="mx-4 mt-3 p-1">C</li>
+                        </a>
+                        <a href="#">
+                            <li class="mx-4 mt-3 p-1">C++</li>
+                        </a>
+                        <a href="#">
+                            <li class="mx-4 mt-3 p-1">Hadoop</li>
+                        </a>
+                        <a href="#">
+                            <li class="mx-4 mt-3 p-1">Java</li>
+                        </a>
+                        <a href="#">
+                            <li class="mx-4 mt-3 p-1">Matlab</li>
+                        </a>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- slide 2 -->
+            <div class="carousel-item">
+                <div class="container">
+                    <ul class="course_nav">
+                        <a href="#">
+                            <li class="mx-4 mt-3 p-1">Oracle</li>
+                        </a>
+                        <a href="#">
+                            <li class="mx-4 mt-3 p-1">PGDCA</li>
+                        </a>
+                        <a href="#">
+                            <li class="mx-4 mt-3 p-1">php</li>
+                        </a>
+                        <a href="#">
+                            <li class="mx-4 mt-3 p-1">python</li>
+                        </a>
+                        <a href="#">
+                            <li class="mx-4 mt-3 p-1">tally</li>
+                        </a>
+                        <a href="#">
+                            <li class="mx-4 mt-3 p-1">Matlab</li>
+                        </a>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- prev and nex controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <!-- carousel part end  -->
+
+    <!-- Courses navigation# -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
